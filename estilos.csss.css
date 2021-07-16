@@ -1,0 +1,139 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration:none;
+  list-style:none;
+}
+body{
+  background:orange;
+}
+.a,li{
+  font-family:"roboto",sans-serif; 
+  color:writh; 
+}
+.header{
+  background-color:orange;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0,5rem 2rem;
+}
+.nav-menu ul{
+  display:flex;
+  align-items:center;
+}
+img{
+  display:block;
+  width: 30%;
+  max-width: 30%;
+}
+container{
+  width: 100%;
+  margin: auto;
+}
+container--flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+}
+colum{
+  width: 100%;
+}
+/*---estilos del menu---*/
+.main-nav{
+  width: 55%;
+  position: relative;
+  z-index:1000 ;
+  padding: 20px;
+  top: 0px; left: 500px;
+}
+icon-menu{
+  display: block;
+  color: white;
+}
+.social-icon{
+  display: flex;
+  justify-content: space-between;
+}
+social-icon[class*="icon-"]{
+  color: black;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  width: 65px;
+  height:65px;
+  background: white;
+  border-radius:50%;
+}
+.social-icon__link{
+  text-decoration: none;
+}
+
+/* -----carrucel----*/
+body { margin: 0; } 
+div#slider { overflow: hidden; } 
+div#slider figure img { width: 20%; float: left; }
+
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+.today-special.column{
+  margin-bottom: 30px;
+}
+.today-special__img{
+  margin: auto;
+  max-width: 350px;
+}
+.today-special__title{
+  font-size: 1,3em;
+  padding-top: 10px;
+}
+/*------estilos del footer---------*/
+.main-footer{
+  background: #222;
+  color:white;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: .8em;
+}
+.copy{
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+.main-footer[class*="icon-"]{
+color: white;
+text-decoration: none;
+}
+.main-footer[class*="icon-"]:before{
+  position: relative;
+  top:3px;
+  right: 5px;
+}
+
+
+
+
+
+
+
